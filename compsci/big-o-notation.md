@@ -9,9 +9,17 @@ if you watch all these videos and pay close attention you will learn it extremel
 * [10. Understanding Program Efficiency, Part 1](https://youtu.be/o9nW0uBqvEo)
 
 examples:
+
+
 T(n) = T(n−1) + 1 → O(n)
+
+
 T(n) = T(n/2) + 1 → O(log n)
+
+
 T(n) = 2T(n/2) + n → O(n log n)
+
+
 
 ```c
 for (i = 0; i < n; i++)
